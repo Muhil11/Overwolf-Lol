@@ -1,0 +1,26 @@
+{
+  "manifest_version": 1,
+  "type": "WebApp",
+  "meta": {
+    "name": "Champion Coach",
+    "author": "Your Name",
+    "version": "1.0.0",
+    "description": "AI-powered League of Legends match analysis using Overwolf."
+  },
+  "permissions": [
+    "game_events",
+    "game_info",
+    "desktop_capturer"
+  ],
+  "data": {
+    "start_window": "index",
+    "windows": {
+      "index": {
+        "file": "index.html",
+        "transparent": false,
+        "resizable": true,
+        "show_in_taskbar": true
+      }
+    }
+  }
+}
